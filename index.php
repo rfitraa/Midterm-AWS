@@ -1,5 +1,5 @@
 <?php
-   $connect = mysqli_connect("localhost", "root", "", "polinema_database");
+   $connect = mysqli_connect("db-midterm.cqgymu2ljsdm.us-east-1.rds.amazonaws.com", "midterm", "midterm123", "polinema_database");
    $query = "SELECT * FROM employee ORDER BY name ASC";
    $result = mysqli_query($connect, $query);
 ?>
